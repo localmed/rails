@@ -1,4 +1,15 @@
+<<<<<<< HEAD
 ## Rails 4.0.5 (May 6, 2014) ##
+=======
+*   When joining tables with a default scope, ensure the generated table name
+    in the ON conditions from the default scope is correctly aliased .
+
+    Backports #14154.
+
+    *Matt Jones*
+
+*   Fixed has_many association to make it support irregular inflections.
+>>>>>>> 9a6dcf0... Correctly handle joining scoped associations with table aliases.
 
 *No changes*
 
